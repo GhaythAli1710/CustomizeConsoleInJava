@@ -10,6 +10,7 @@ public class Initialize {
             return System.console().readLine(format, args);
         }
         System.out.print(String.format(format, args));
+        /** In this line we are create a new console */  
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         return reader.readLine();
     }
